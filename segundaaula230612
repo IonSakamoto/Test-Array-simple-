@@ -1,0 +1,22 @@
+
+public class SegundaAula230612 {
+
+    public static void main(String[] args) {
+        
+        
+        VetorLista vl = new VetorLista();
+        
+        vl.inserirElemento(58721, 0);
+        vl.inserirElemento(951, 0);
+        vl.inserirElemento(752, 0);
+        vl.inserirElemento(950001, 3);
+        vl.inserirElemento(78953);
+        vl.imprimir();
+        
+        try {
+            System.out.println (vl.lerElemento(10));
+        } catch (Exception ex) {
+            System.out.println(ex.getMessage());
+        }
+    }
+}
