@@ -1,0 +1,31 @@
+/*
+interface é um conjunto de classes q tem a mesma emplementação dos metodos
+
+-Lista (é a nossa interface)
+-Fila(Ordem) = é um conceito de ordem/prioridade (Uma estrutura de tipo FIFO é uma fila, começa pelo primeiro e vai indo até o ultimo)
+-Pilha = é o contrario da fila(começa pelo ultimo e vai até o primeiro), uma estrutura de tipo LIPO
+-Ilha
+-Arvore (Arvore de decisoes
+*/
+
+//Exercicio de exemplo de interface de lista
+package com.mycompany.segundaaula230612;
+
+
+public interface Lista {
+    
+    public boolean inserirElemento (double valor, int pos);
+    
+    public double lerElemento (int pos) throws Exception;
+    
+    public boolean removerElemento (int pos);
+    
+    public void imprimir();
+    
+    public int length();
+    
+}
+
+   //Saber oq é uma estrutura de função (É o nome do metodo e os tipos q ela tem
+  //Saber oq é uma classe abistrata = é uma classe n pode ser substanciada(Não vira objeto) é uma classe usada para...(Não entendi o resto)
+ //Prototipo é uma indicação do metodo sem nenhuma indicação
